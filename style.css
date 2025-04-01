@@ -1,28 +1,41 @@
-/* Remove default margin & padding */
+/* Reset body margin & padding */
 body, html {
     margin: 0;
     padding: 0;
 }
 
-/* Navbar styling */
+/* Navbar */
 .navbar {
     border-radius: 0;
 }
 
-/* Background color for dropdown menu */
-.navbar-nav {
-    background-color: #f8f9fa;
-}
-
-/* Page heading */
+/* Page title */
 h1 {
-    margin-top: 20px;
     font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* Tall Section */
 .section {
     background-color: #f4f4f4;
     height: 1000px;
-    padding: 20px;
+    padding: 50px;
+    text-align: center;
 }
+
+/* Ensure navbar links are visible */
+.navbar-nav {
+    background-color: #eee;
+}
+
+/* Style dropdown menu in mobile view */
+.navbar-nav > li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Ensure text inside the section is aligned */
+.section
